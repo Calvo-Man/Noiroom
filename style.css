@@ -26,7 +26,7 @@ body {
 
 .error-message {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   
 }
 
@@ -41,7 +41,8 @@ body {
   text-decoration: none;
 }
 .moveUpDown {
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+  font-size: 1.7rem;
   animation: moveUpDownAnimation 1s infinite alternate;
   
 }
