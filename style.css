@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111111;
+  color: #f1eeee;
+  /* Cambio el color del texto a blanco */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.error-code {
+  font-size: 100px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  font-size: 24px;
+  margin-bottom: 20px;
+  
+}
+
+
+.back-home {
+  color: #fff;
+  display: inline-block;
+  animation: scaleAnimation 2s infinite alternate;
+}
+.back-home a {
+  color: #fff;
+  text-decoration: none;
+}
+.moveUpDown {
+  margin-bottom: 5px;
+  animation: moveUpDownAnimation 1s infinite alternate;
+  
+}
+
+@keyframes moveUpDownAnimation {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes scaleAnimation {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.5);
+  }
+}
